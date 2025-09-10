@@ -24,22 +24,22 @@ async function checkWeather(city) {
 
     switch (weather) {
       case "Clouds":
-        iconSrc = "weather-app-img (1)/images/clouds.png";
+        iconSrc = "images/clouds.png";
         break;
       case "Clear":
-        iconSrc = "weather-app-img (1)/images/clear.png";
+        iconSrc = "images/clear.png";
         break;
       case "Rain":
-        iconSrc = "weather-app-img (1)/images/rain.png";
+        iconSrc = "images/rain.png";
         break;
       case "Drizzle":
-        iconSrc = "weather-app-img (1)/images/drizzle.png";
+        iconSrc = "images/drizzle.png";
         break;
       case "Mist":
-        iconSrc = "weather-app-img (1)/images/mist.png";
+        iconSrc = "images/mist.png";
         break;
       default:
-        iconSrc = "weather-app-img (1)/images/default.png"; // fallback icon
+        iconSrc = "images/default.png"; // fallback icon
     }
     weatherIcon.src = iconSrc;
     weatherIcon.alt = weather;
